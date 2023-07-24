@@ -20,7 +20,8 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                'gradient-srart': '#FF8938',
+                'gradient-end':'#F00'
               }
             }
           }
@@ -59,7 +60,7 @@
           </div>
     </header>
     <main class="container mx-auto">
-        <section class="py-24">
+        <section class="py-24 px-5 lg:px-0">
             <h2 class="font-extrabold text-5xl text-[#1C1C1C] text-center">Our Featured Products</h2>
             <p class="lg:max-w-4xl  text-base font-medium text-[#777] pt-5 mx-auto text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-7 pt-7">
@@ -98,7 +99,7 @@
             </div>
         </section>
         <!-- great tea sectoin  -->
-        <section class="py-14">
+        <section class="py-14 px-5 lg:px-0">
           <div class="flex flex-col md:flex-col lg:flex-row gap-12">
             <div class="flex-1 grid gap-8 grid-cols-1 md:grid-cols-2 ">
               <div class=" rounded-xl h-36
@@ -122,10 +123,146 @@
             </div>
           </div>
         </section>
+        <!-- great tea section -->
+        <section class="py-20 px-5 lg:px-0">
+          <div class="flex flex-col lg:flex-row items-center gap-12 p-16       bg-gradient-to-r from-gradient-srart to-gradient-end rounded-lg">
+            <div class="space-y-5 pr-6">
+              <h2 class="text-5xl font-extrabold text-[#F4F4F4]">Meet Our Super <br> Clients</h2>
+              <p class="text-base font-medium text-[#F4F4F4] lg:pr-[50px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+              <button class="btn btn-prymary">Show All</button>
+            </div>
+            <div class="revew-container relative">
+                          <!-- next revew -->
+            <div class="opacity-40 z-0 p-10 mb-14  rounded-xl bg-[#FFF] space-y-3 relative ">
+              <img class="absolute -top-8 -left-8 border-4 bg-white rounded-full" src="./images/client.png" alt="">
+              <p class="font-normal text-base	">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <div class="">
+                <h4 class="text-base font-bold">Ilham Yuda</h4>
+              <p class="text-base font-medium text-[#5D5A6F]">Businessman</p>
+              <div class="flex justify-end">
+                <img src="./images/circles.png" alt="">
+              </div>
+              </div>
+            </div>
+            <!-- current revew -->
+            <div class="p-10 z-10 rounded-xl bg-[#FFF] space-y-3 absolute top-40 lg:-left-28 lg:w-[430px]">
+              <img class="absolute -top-8 -left-8 border-4 bg-white rounded-full" src="./images/client.png" alt="">
+              <p class="font-normal text-base	">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <div class="">
+                <h4 class="text-base font-bold">Ilham Yuda</h4>
+              <p class="text-base font-medium text-[#5D5A6F]">Businessman</p>
+              <div class="flex justify-end">
+                <img src="./images/circles.png" alt="">
+              </div>
+              </div>
+            </div>
+            <!-- privouis revew -->
+            <div class="opacity-40 z-0 p-10 rounded-xl bg-[#FFF] space-y-3 relative ">
+              <img class="absolute -top-8 -left-8 border-4 bg-white rounded-full" src="./images/client.png" alt="">
+              <p class="font-normal text-base	">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+              <div class="">
+                <h4 class="text-base font-bold">Ilham Yuda</h4>
+              <p class="text-base font-medium text-[#5D5A6F]">Businessman</p>
+              <div class="flex justify-end">
+                <img src="./images/circles.png" alt="">
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+        <!-- event section -->
+        <section class="py-14 px-5 lg:px-0">
+          <h2 class="font-extrabold text-5xl text-[#1C1C1C] text-center">News & Events</h2>
+          <p class="lg:max-w-4xl  text-base font-medium text-[#777] pt-5 mx-auto text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          <!-- card-container -->
+          <div class="py-10 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <!-- card 1 -->
+            <div class="card bg-base-100 border-2   p-5">
+              <img src="./images/news-1.png" alt="Shoes" />
+              <div class="space-y-3 mt-3">
+                <p class="text-base font-medium text-[#777]">Feb 05, 2027</p>
+                <h2 class="text-xl font-extrabold text-[#1C1C1C]">Collecting 8 points for discount</h2>
+                <p class="">There are many variations of passages of Lorem Ipsum available.</p>
+                <div class="card-actions">
+                  <button class="text-base font-bold text-[#1C1C1C]">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card bg-base-100 border-2   p-5">
+              <img src="./images/news-2.png" alt="Shoes" />
+              <div class="space-y-3 mt-3">
+                <p class="text-base font-medium text-[#777]">Feb 05, 2027</p>
+                <h2 class="text-xl font-extrabold text-[#1C1C1C]">Collecting 8 points for discount</h2>
+                <p class="">There are many variations of passages of Lorem Ipsum available.</p>
+                <div class="card-actions">
+                  <button class="text-base font-bold text-[#1C1C1C]">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card bg-base-100 border-2   p-5">
+              <img src="./images/news-3.png" alt="Shoes" />
+              <div class="space-y-3 mt-3">
+                <p class="text-base font-medium text-[#777]">Feb 05, 2027</p>
+                <h2 class="text-xl font-extrabold text-[#1C1C1C]">Collecting 8 points for discount</h2>
+                <p class="">There are many variations of passages of Lorem Ipsum available.</p>
+                <div class="card-actions">
+                  <button class="text-base font-bold text-[#1C1C1C]">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
     </main>
-    <footer>
-
+    <footer class="lg:px-24 px-8 py-24 space-y-5 bg-gradient-to-r from-red-100 to-amber-100">
+      <div class="footer flex justify-between">
+        <img src="./images/cup.png" alt="">
+        <div class="flex items-center gap-3">
+          <p>Ready to get strated?</p>
+          <button class="btn text-white bg-gradient-to-r from-gradient-srart to-gradient-end">Get Started</button>
+        </div>
+      </div>
+      <div class="footer  text-base-content justify-between pt-10">
+        <div class="space-y-3">
+          <span class="text-xl font-semibold text-[#1C1C1C]">Quick Links</span> 
+          <a class="link link-hover">Home</a> 
+          <a class="link link-hover">About Us</a> 
+          <a class="link link-hover">Insurance</a> 
+          <a class="link link-hover">Privacy Policy</a>
+        </div> 
+        <div class="space-y-3">
+          <span class="text-xl font-semibold text-[#1C1C1C]">Our Service</span> 
+          <a class="link link-hover">Life Insurance</a> 
+          <a class="link link-hover">Car Insurance</a> 
+          <a class="link link-hover">Health Insurance</a> 
+          <a class="link link-hover">House Insurance</a>
+        </div> 
+        <div class="space-y-3">
+          <span class="text-xl font-semibold text-[#1C1C1C]">Help</span> 
+          <a class="link link-hover">FAQs</a> 
+          <a class="link link-hover">Contact Us</a> 
+        </div> 
+        <div class="space-y-3">
+          <span class="text-2xl font-semibold text-[#1C1C1C]">Subscribe to our <br> newsletter</span> 
+          <div class="form-control w-80">
+            <div class="relative">
+              <input type="email" placeholder="Email address" class="py-4 pr-24 bg-transparent border-b-2 border-[#494949] outline-none" /> 
+              <button class="btn text-white absolute top-0 right-0 rounded-full bg-gradient-to-r from-gradient-srart to-gradient-end"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <div class=" flex gap-4">
+            <i class="text-2xl	 fa-brands fa-facebook-f"></i>
+            <i class="text-2xl fa-brands fa-twitter"></i>
+            <i class="text-2xl	 fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class=" footer-center p-8 text-base-content">
+        <p>© 2027 UIDesign.to - All rights reserved.</p>
+      </div>
     </footer>
 </body>
 </html>
